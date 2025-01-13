@@ -9,5 +9,10 @@ import java.util.List;
 @RestController
 @RequestMapping("/todos")
 public class TodoController {
+    private TodoService todoService;
+
+    public TodoController(TodoService todoService) {
+        this.todoService = todoService;
+    }
 
 }
