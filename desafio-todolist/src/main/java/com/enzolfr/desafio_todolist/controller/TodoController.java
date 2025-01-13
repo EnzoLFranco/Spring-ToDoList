@@ -30,4 +30,9 @@ public class TodoController {
         return todoService.update(todo);
     }
 
+    @DeleteMapping("{id}")
+    List<Todo> delete(@PathVariable("id") Long id){
+        return todoService.delete(id);
+    }
+
 }
