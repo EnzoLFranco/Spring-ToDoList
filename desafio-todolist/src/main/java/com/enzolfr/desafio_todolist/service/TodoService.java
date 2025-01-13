@@ -14,4 +14,19 @@ public class TodoService {
     public TodoService(TodoRepository todoRepository) {
         this.todoRepository = todoRepository;
     }
+
+    public List<Todo> create(Todo todo){
+
+    }
+
+    public List<Todo> list(){
+    
+    }
+
+    public List<Todo> update(){
+
+    }
+    public List<Todo> delete(){
+
+    }
 }
