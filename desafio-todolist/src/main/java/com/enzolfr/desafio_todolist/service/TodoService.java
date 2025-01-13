@@ -25,8 +25,9 @@ public class TodoService {
         return todoRepository.findAll(sort);
     }
 
-    public List<Todo> update(){
-
+    public List<Todo> update(Todo todo){
+        todoRepository.save(todo);
+        return list();
     }
     public List<Todo> delete(){
 
