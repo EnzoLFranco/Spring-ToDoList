@@ -13,8 +13,7 @@ public class Todo {
     private boolean itsRealized;
     private int priority;
 
-    public Todo(Long id, String name, String description, boolean itsRealized, int priority) {
-        this.id = id;
+    public Todo(String name, String description, boolean itsRealized, int priority) {
         this.name = name;
         this.description = description;
         this.itsRealized = itsRealized;
@@ -33,7 +32,7 @@ public class Todo {
         return description;
     }
 
-    public boolean isItsRealized() {
+    public boolean getItsRealized() {
         return itsRealized;
     }
 
