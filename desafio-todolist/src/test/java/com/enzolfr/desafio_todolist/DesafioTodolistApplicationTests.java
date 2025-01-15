@@ -28,6 +28,16 @@ class DesafioTodolistApplicationTests {
 				.jsonPath("$[0].itsRealized").isEqualTo(todo.isItsRealized())
 				.jsonPath("$[0].priority").isEqualTo(todo.getPriority());
 	}
-
+	@Test
+	void testCreateTodoFailure() {
+		webTestClient
+				.post()
+				.uri("/todos")
+				.bodyValue(
+						new Todo("","", false, 3)
+				)
+				.exchange()
+				.expectStatus().isBadRequest();
+	}
 
 }
