@@ -7,7 +7,7 @@
 [![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white)](https://swagger.io/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
-Esse repositório armazena um sistema de gerenciamento de tarefas (To-Do List), desenvolvido por mim, me guiando por [esse vídeo](https://www.youtube.com/watch?v=IjProDV001o&list=PLiFLtuN04BS0pzDbDiuSh-Mt-ifgiiogs&index=2) como parte de um desafio para vaga de Desenvolvedor Backend JR([Link do desafio](https://github.com/simplify-tec/desafio-junior-backend-simplify)).
+Esse repositório armazena um sistema de gerenciamento de tarefas (To-Do List), desenvolvido por mim, me guiando(no começo do projeto) por [esse vídeo](https://www.youtube.com/watch?v=IjProDV001o&list=PLiFLtuN04BS0pzDbDiuSh-Mt-ifgiiogs&index=2) como parte de um desafio para vaga de Desenvolvedor Backend JR([Link do desafio](https://github.com/simplify-tec/desafio-junior-backend-simplify)).
 
 ---
 
